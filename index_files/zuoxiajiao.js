@@ -1,0 +1,1 @@
+document.writeln('<a href="http://www.bobo.com/?f=zhimeng_zhuye01" style="position: fixed; bottom: 0px; left: 0px;" target="_blank"><img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1505280302038&di=4f5049071fabd64ec94faeec225641a4&imgtype=0&src=http%3A%2F%2Fs4.sinaimg.cn%2Fmw690%2F005vNdiYgy6N9vRX43N53%26690" /></a>');
