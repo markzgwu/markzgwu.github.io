@@ -1,13 +1,59 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>markzgwu@gmail.com</title>
+	<meta charset="utf-8">
+	<title>导航栏</title>
+	<link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
-<frameset rows="50,*" frameborder="no" >
-  <frame src="menu.html" frameborder="no" />
-  <frame src="http://aichain.ngrok.cc/" frameborder="no" />
-</frameset>
-<noframes>
-<body>您的浏览器无法处理框架！</body>
-</noframes>
+<body>
+
+<nav class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+    <div class="navbar-header">
+        <a class="navbar-brand" href="aichain.net.cn">AI</a>
+    </div>
+    <div>
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="#">商城</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                    市场
+                    <b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">在线教育</a></li>
+                    <li><a href="#">数据处理</a></li>
+                    <li><a href="#">金融科技</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">智慧农业</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">环境保护</a></li>
+					<li><a href="#">智慧城市</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                    技术
+                    <b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">深度学习</a></li>
+                    <li><a href="#">区块链</a></li>
+                    <li><a href="#">大数据</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">量子计算</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">量化分析</a></li>
+                </ul>
+            </li>
+			<li class="active"><a href="#">论坛</a></li>
+			<li class="active"><a href="#">搜索</a></li>
+			<li><a href="#">关于我们</a></li>
+        </ul>
+    </div>
+    </div>
+</nav>
+   </body>
 </html>
