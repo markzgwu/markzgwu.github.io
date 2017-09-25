@@ -1,1 +1,0 @@
-document.writeln("<iframe src=\"http:\/\/www.37cs.com\/html\/click\/8040_2134.html\" width=\"960\" height=\"90\" marginheight=\"0\" marginwidth=\"0\" scrolling=\"no\" frameborder=\"0\"><\/iframe>")
